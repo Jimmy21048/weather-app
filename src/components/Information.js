@@ -1,7 +1,7 @@
 
 export default function Information({text, value}) {
 
-    fetch(`http://api.weatherapi.com/v1/current.json?key=7cc857551b0b43928a961427232209&q=${value}&aqi=no`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key=7cc857551b0b43928a961427232209&q=${value}&aqi=no`)
     .then(response => {
         return response.json();
     })
