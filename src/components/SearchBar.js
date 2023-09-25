@@ -2,6 +2,7 @@
 export default function SearchBar({text, setText, setValue}) {
     function handleClick() {
         setValue(text);
+        setText("");
     }
     return (
         <div className="search-bar">

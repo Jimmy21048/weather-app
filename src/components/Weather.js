@@ -4,7 +4,7 @@ import ToggleMode from './ToggleMode'
 import Information from './Information'
 import { useState } from 'react'
 export default function Weather() {
-    const [text, setText] = useState('Nairobi');
+    const [text, setText] = useState('');
     const [value, setValue] = useState('Nairobi');
     const [light, setLight] = useState(true);
     return (
